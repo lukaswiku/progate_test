@@ -19,6 +19,33 @@ a {
 }
 
 /* Ketik code Anda dibawah */
+header{
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  z-index: 10;
+}
+.Navbar{
+  width: 1170px;
+  margin: 0 auto;
+}
+.Navbar img{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 124px;
+  
+}
+
+.Navbar a{
+  display: inline-block;
+  float: right;
+  background-color: rgba(255,255,255, 0.3);
+  height: 25px;
+  color: white;
+  padding: 20px;
+}
+
 .Top-wrapper{
   text-align: center;
   padding-top: 180px;
@@ -30,7 +57,7 @@ a {
 .Head-judul{
   width: 1170px;
   color: white;
-  margin: 0 auto;
+  margin: auto;
 }
 .Head-judul h1{
   font-size: 45px;
@@ -74,4 +101,86 @@ a {
 
 .fa{
   margin-right: 5px;
+}
+
+.Main{
+    background-color: #f7f7f7;
+}
+.Main-container{
+  width: 1170px;
+  height: 580px;
+  margin: auto;
+  text-align: center;
+}
+
+.Main-container h2{
+  Padding-top: 60px;
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.Card{
+  float: left;
+  margin-top: 30px;
+  width: 25%;
+  position: relative;
+
+}
+.Card img{
+  margin-bottom: 20px;
+}
+
+.Desc-text{
+  width: 80%;
+  margin: auto;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.Inpic-text{
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: #f7f7f7;
+}
+
+.Msg{
+  padding-top: 60px;
+  padding-bottom: 80px;
+  text-align: center;
+  color: #5f5d60;
+}
+.Msg h2{
+  font-weight: normal;
+}
+.Msg h3{
+  font-weight: normal;
+}
+
+.mulai-belajar{
+  margin-top: 30px;
+  padding: 15px 40px;
+  background-color: #5dca88;
+  opacity: 0.8;
+  box-shadow: 0px 7px #1a7940;
+}
+
+.mulai-belajar:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer{
+  width: 1170px;
+  margin: auto;
+  padding-top: 30px;
+  border-top: 1px solid #eee;
+}
+footer img{
+  width: 124px;
+}
+footer p{
+  font-size: 12px;
+  color: #eee;
 }
